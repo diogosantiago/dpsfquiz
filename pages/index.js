@@ -38,13 +38,6 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>{db.title}</title>
-        <meta property="og:image" content={db.bg} />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="382" />
-        <meta property="og:image:height" content="301" />
-        <meta property="og:url" content="https://dpsfquiz.dsantaigo.vercel.app/" />
-        <meta property="og:title" content={db.title} />
-        <meta property="og:site_name" content={db.title} />
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -82,7 +75,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/dsantaigo" />
+      <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
   );
 }
